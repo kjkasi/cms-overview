@@ -1,0 +1,9 @@
+services:
+  myapp:
+    container_name: wagtile
+    image: wagtile
+    build:
+      dockerfile: ./Dockerfile
+      context: ./mysite
+    ports:
+      - 8000:8000

@@ -1,0 +1,4 @@
+nextjs/my-app/node_modules
+payload\payload-app\node_modules
+strapi\strapi-app\node_modules
+wagtile/mysite/env

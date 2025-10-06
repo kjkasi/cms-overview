@@ -1,0 +1,9 @@
+services:
+  myapp:
+    container_name: strapi
+    image: strapi
+    build:
+      dockerfile: ./Dockerfile
+      context: .
+    ports:
+      - 3000:3000

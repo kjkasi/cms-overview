@@ -1,0 +1,12 @@
+services:
+  myapp:
+    container_name: payload
+    image: payload
+    build:
+      dockerfile: ./Dockerfile
+      context: .
+    ports:
+      - 3000:3000
+
+  sqldata:
+    image: mongo:latest
